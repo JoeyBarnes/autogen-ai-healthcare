@@ -1,4 +1,4 @@
-# "Automating AI Model Development for Healthcare Using AutoGen"
+# Automating AI Model Development for Healthcare Using AutoGen
 
 
 **Abstract**
