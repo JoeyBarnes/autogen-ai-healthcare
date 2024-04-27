@@ -576,7 +576,7 @@ The classification reports provide several key metrics for evaluating the perfor
 - **Support**: The number of actual occurrences of the class in the specified dataset.
 - **Accuracy**: The ratio of correctly predicted observation to the total observations. It's most useful when all the classes are equally important.
 - **Macro Avg**: Averages the metric independently for each class and then takes the average. It treats all classes equally, no matter what their support is.
-- **Weighted Avg**: Averages the metric for each class, weighted by their support. It accounts for class imbalance by computing the average of metrics in which each class’s score is weighted by its presence in the true data sample.
+- **Weighted Avg**: Averages the metric for each class, weighted by their support. It accounts for class imbalance by computing the average of metrics in which each classï¿½s score is weighted by its presence in the true data sample.
 
 ### Analysis of Each Model
 
@@ -719,9 +719,12 @@ Precision-Recall Curve: data/pr_curve.png
 ## Visualizations Expert (AI Assistant) $\Rightarrow$ User
 The Python script executed successfully and generated the plots as requested. Here are the links to the plots that were saved:
 
-- Classification Report: `data/classification_report.png`
-- ROC Curve: `data/roc_curve.png`
-- Precision-Recall Curve: `data/pr_curve.png`
+- Classification Report: 
+![Classification Report](data/classification_report.png)
+- ROC Curve: 
+![ROC Curve](data/roc_curve.png)
+- Precision-Recall Curve: 
+![Precision-Recall Curve](data/pr_curve.png)
 
 These plots visually compare the performance of different models based on the classification report, ROC curve, and precision-recall curve data, providing insights into their effectiveness in predicting the onset of Acute Kidney Injury (AKI) based on the key indicators and criteria from blood chemistry lab tests.
 
